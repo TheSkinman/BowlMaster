@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 1482
+  controlID: 121
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 508, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 154
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 12
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 13
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,8 +303,8 @@ MonoBehaviour:
     y: 0
     width: 433
     height: 901
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 22}
@@ -405,9 +405,9 @@ MonoBehaviour:
     - id: '[Bowlmaster][Assembly-CSharp-Editor.dll]'
       name: Assembly-CSharp-Editor.dll
       fullName: E:/repo/Unity/Bowlmaster/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 1
-      duration: 0.8936489
-      messages: 
+      resultStatus: 2
+      duration: 0.3848714
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -417,172 +417,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.8147726
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T00_PassingTest]'
-      name: T00_PassingTest
-      fullName: ActionMasterTest.T00_PassingTest
-      resultStatus: 1
-      duration: 0.0524599
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T01_OneStrikeReturnsEndTurn]'
-      name: T01_OneStrikeReturnsEndTurn
-      fullName: ActionMasterTest.T01_OneStrikeReturnsEndTurn
-      resultStatus: 1
-      duration: 0.0285614
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T02_Bowl8ReturnsTidy]'
-      name: T02_Bowl8ReturnsTidy
-      fullName: ActionMasterTest.T02_Bowl8ReturnsTidy
-      resultStatus: 1
-      duration: 0.0287536
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T03_Bowl28SpareReturnsEndTurn]'
-      name: T03_Bowl28SpareReturnsEndTurn
-      fullName: ActionMasterTest.T03_Bowl28SpareReturnsEndTurn
-      resultStatus: 1
-      duration: 0.031182
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T04_Bowl4And2ReturnsEndTurn]'
-      name: T04_Bowl4And2ReturnsEndTurn
-      fullName: ActionMasterTest.T04_Bowl4And2ReturnsEndTurn
-      resultStatus: 1
-      duration: 0.0175473
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T05_CheckResetAtStrikeInLastFrame]'
-      name: T05_CheckResetAtStrikeInLastFrame
-      fullName: ActionMasterTest.T05_CheckResetAtStrikeInLastFrame
-      resultStatus: 1
-      duration: 0.0303779
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T06_CheckResetAtSpareInLastFrame]'
-      name: T06_CheckResetAtSpareInLastFrame
-      fullName: ActionMasterTest.T06_CheckResetAtSpareInLastFrame
-      resultStatus: 1
-      duration: 0.0250267
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T07_YouTubeRollsEndInEndGame]'
-      name: T07_YouTubeRollsEndInEndGame
-      fullName: ActionMasterTest.T07_YouTubeRollsEndInEndGame
-      resultStatus: 1
-      duration: 0.0281698
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T08_GameEndsAtBowl20]'
-      name: T08_GameEndsAtBowl20
-      fullName: ActionMasterTest.T08_GameEndsAtBowl20
-      resultStatus: 1
-      duration: 0.0203913
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T09_DarylBowl20]'
-      name: T09_DarylBowl20
-      fullName: ActionMasterTest.T09_DarylBowl20
-      resultStatus: 1
-      duration: 0.0291183
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T10_BensBowl20Test]'
-      name: T10_BensBowl20Test
-      fullName: ActionMasterTest.T10_BensBowl20Test
-      resultStatus: 1
-      duration: 0.018444
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T11_TwoStrikesLastFrame]'
-      name: T11_TwoStrikesLastFrame
-      fullName: ActionMasterTest.T11_TwoStrikesLastFrame
-      resultStatus: 1
-      duration: 0.0222344
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T12_NathanBowlIndexTest]'
-      name: T12_NathanBowlIndexTest
-      fullName: ActionMasterTest.T12_NathanBowlIndexTest
-      resultStatus: 1
-      duration: 0.0299505
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T13_Dondi10thFrameTurkey]'
-      name: T13_Dondi10thFrameTurkey
-      fullName: ActionMasterTest.T13_Dondi10thFrameTurkey
-      resultStatus: 1
-      duration: 0.0177704
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T14_ZeroOneGivesEndTurn]'
-      name: T14_ZeroOneGivesEndTurn
-      fullName: ActionMasterTest.T14_ZeroOneGivesEndTurn
-      resultStatus: 1
-      duration: 0.0279036
+      duration: 0.0014872
       messages: 
       output: 
       stacktrace: 
@@ -592,32 +427,111 @@ MonoBehaviour:
     - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest]'
       name: ScoreMasterTest
       fullName: ScoreMasterTest
+      resultStatus: 2
+      duration: 0.322704
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T0_1Bowl23]'
+      name: T0_1Bowl23
+      fullName: ScoreMasterTest.T0_1Bowl23
       resultStatus: 1
-      duration: 0.0393499
+      duration: 0.0272615
+      messages: 
+      output: "----------\r\nReturn - 5\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T00_PassingTest]'
+      name: T00_PassingTest
+      fullName: ScoreMasterTest.T00_PassingTest
+      resultStatus: 1
+      duration: 0.0132474
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T01_ScoreMasterTestSimplePasses]'
-      name: T01_ScoreMasterTestSimplePasses
-      fullName: ScoreMasterTest.T01_ScoreMasterTestSimplePasses
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T02_Bowl234]'
+      name: T02_Bowl234
+      fullName: ScoreMasterTest.T02_Bowl234
       resultStatus: 1
-      duration: 0.0126593
+      duration: 0.0095763
       messages: 
-      output: 
+      output: "----------\r\nReturn - 5\r\n"
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: ActionMasterTest (0.815s)
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T03_Bowl2345]'
+      name: T03_Bowl2345
+      fullName: ScoreMasterTest.T03_Bowl2345
+      resultStatus: 1
+      duration: 0.0212807
+      messages: 
+      output: "----------\r\nReturn - 5\r\nReturn - 9\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T04_Bowl23456]'
+      name: T04_Bowl23456
+      fullName: ScoreMasterTest.T04_Bowl23456
+      resultStatus: 1
+      duration: 0.0215638
+      messages: 
+      output: "----------\r\nReturn - 5\r\nReturn - 9\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T05_Bowl234561]'
+      name: T05_Bowl234561
+      fullName: ScoreMasterTest.T05_Bowl234561
+      resultStatus: 1
+      duration: 0.0162524
+      messages: 
+      output: "----------\r\nReturn - 5\r\nReturn - 9\r\nReturn - 7\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T06_Bowl2345612]'
+      name: T06_Bowl2345612
+      fullName: ScoreMasterTest.T06_Bowl2345612
+      resultStatus: 1
+      duration: 0.0198345
+      messages: 
+      output: "----------\r\nReturn - 5\r\nReturn - 9\r\nReturn - 7\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T07_BowlX1]'
+      name: T07_BowlX1
+      fullName: ScoreMasterTest.T07_BowlX1
+      resultStatus: 2
+      duration: 0.0313877
+      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
+        0 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
+        1 elements\r\n  Values differ at index [0]\r\n  Extra:    < 11 >"
+      output: "----------\r\nReturn - 11\r\n"
+      stacktrace: "at ScoreMasterTest.T07_BowlX1 () [0x00039] in E:\\repo\\Unity\\Bowlmaster\\Bowlmaster\\Assets\\Editor\\ScoreMasterTest.cs:112\r\n"
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: "T02_Bowl234 (0.010s)\n---\n----------\r\nReturn - 5"
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 161c9f7f
-      m_LastClickedID: 2141133846
-      m_ExpandedIDs: 96342cd4be94dafb14f33e51fe11d574161c9f7fffffff7f
+      m_SelectedIDs: bc6dafcd
+      m_LastClickedID: -844141124
+      m_ExpandedIDs: 96342cd4be94dafb14f33e51fe11d574ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +653,9 @@ MonoBehaviour:
     height: 566
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e670000
+    m_SelectedIDs: ba060000
     m_LastClickedID: 0
-    m_ExpandedIDs: 6c63fcff6868fcffa66cfcffca70fcff6875fcffc079fcff8a7dfcffa881fcff8e85fcff0e89fcff028dfcffb890fcff4c93fcffcc97fcffce9bfcff4ea0fcffeca3fcffa6a7fcff02abfcffecaefcff1684fdff3485fdff6689fdff808efdff36d1fdff58d6fdff6edafdff4e4fffff7650ffff1458ffffa05cffffc25ffffff463ffff9467fffff26bffffd270ffff6c74ffff6878ffff867dffff1682ffff2c85ffff1e89ffff608cffff808fffff2292ffffe896ffffa299ffff1c9effff20a3ffffeaa6ffff9caaffff66adffff4ab1ffffbeb4ffffb0b8ffff5ebeffffaec1ffff96c5ffff1cc8ffff0ccbffffc4ceffff5cd3ffff10d7ffff1adcffff60e0ffffa6e4ffff74e9ffff7cecffff1ef0ffff8af2ffffbaf6ffffe4fbffff00000000e46800000c690000
+    m_ExpandedIDs: 9662feffc266feffea6afeff4072feff8476feff4a7bfeff987ffeff6e86feff228dfeff1e91feff0a96fefff898feff029efeff8ea5feff9aa9feffe2b1feff02b5fefffeb8feff38bdfeff78c3feffacc8feff40cdfeffdcdffeffe4fbffff000000000c260000142600001826000028260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -850,7 +764,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.05156258, y: -0.69866216, z: 0.050613098, w: -0.71179414}
     speed: 2
-    m_Value: {x: -0.05156258, y: -0.69866216, z: 0.050613098, w: -0.71179414}
+    m_Value: {x: 0.05156258, y: 0.69866216, z: -0.050613098, w: 0.71179414}
   m_Size:
     m_Target: 62.01608
     speed: 2
@@ -902,19 +816,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scenes
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/_Scenes
+  - Assets/Editor
   m_LastFoldersGridSize: 96
   m_LastProjectPath: E:\repo\Unity\Bowlmaster\Bowlmaster
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a250000
-    m_LastClickedID: 9546
-    m_ExpandedIDs: 00000000cc240000622500007225000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 80}
+    m_SelectedIDs: 5c250000
+    m_LastClickedID: 9564
+    m_ExpandedIDs: 00000000d42400006e2500007e2500008c25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -942,7 +856,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc240000622500007225000080250000
+    m_ExpandedIDs: 00000000d42400006e2500007e250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -969,7 +883,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 582d0000aabdf1ff5c51f1ffd402000034000000c201000086270000fc280000d42700001c17f4ff122500006aebfffff27afcff26250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

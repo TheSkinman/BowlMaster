@@ -25,7 +25,7 @@ public class ActionMaster
         return currentAction;
     }
 
-    public Action Bowl(int pins) //TODO: make private
+    private Action Bowl(int pins)
     {
         // Make sure pin count is in proper range.
         if (pins < 0 || pins > 10)
