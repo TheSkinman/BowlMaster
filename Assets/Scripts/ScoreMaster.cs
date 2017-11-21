@@ -22,38 +22,30 @@ public class ScoreMaster {
     // Return a list of individual frame scores, NOT cumulative.
     public static List<int> ScoreFrames(List<int> rolls)
     {
-        Debug.Log("----------");
-        List<int> frameList = new List<int>();
-        int subTotal = 0;
-        bool beginingFrame = true;
+        List<int> frames = new List<int>();
 
-        foreach(int score in rolls)
+        for (int i = 1; i < rolls.Count; i += 2)
         {
-            subTotal += score;
-            if (beginingFrame == true)
+            if (frames.Count == 10) { break; }          // Prevent 11th frame score
+
+            if ((rolls[i - 1] + rolls[i]) < 10)         // Normal "open" frame
             {
-                if (score == 10)
-                {
-                    frameList.Add(subTotal);
-                }
-                else
-                {
-                    beginingFrame = false;
-                }
+                frames.Add(rolls[i - 1] + rolls[i]);
             }
-            else
+
+            if (rolls.Count - i <= 1) { break; }        // Insufficient look-ahead
+
+            if (rolls[i - 1] == 10)                     // STRIKE
             {
-                frameList.Add(subTotal);
-                beginingFrame = true;
-                subTotal = 0;
+                i--;
+                frames.Add(10 + rolls[i + 1] + rolls[i + 2]);
+            }
+            else if ((rolls[i - 1] + rolls[i]) == 10)        // SPARE
+            {
+                frames.Add(10 + rolls[i + 1]);
             }
         }
 
-        foreach (int score in frameList)
-        {
-            Debug.Log("Return - " + score);
-        }
-
-        return frameList;
+        return frames;
     }
 }
